@@ -24,3 +24,17 @@ declare interface SysMenuType{
     updateTime:string,
     children:SysMenuType[]
 }
+
+declare interface SysRoleQuery{
+    name:string;
+}
+
+declare interface SyusRoleType{
+    id:string;
+    roleName:string;
+    roleCode:string;
+    status:boolean;
+    remark:string;
+    createTime:string;
+    updateTime:string;
+}

@@ -19,7 +19,7 @@
 <script setup lang="ts"></script>
 <style scoped lang="scss">
 :deep(.el-scrollbar__view) {
-  height: 100%;
+  height: 97%;
 }
 .layout-main {
   overflow-x: hidden;
