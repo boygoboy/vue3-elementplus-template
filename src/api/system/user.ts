@@ -16,3 +16,19 @@ export function deleteById(id:number|string){
         method:'delete'
     })
 }
+
+export function add(data:SysUserType){
+    return request({
+        url:`${baseUrl}`,
+        method:'post',
+        data
+    })
+}
+
+export function update(data:SysUserType){
+    return request({
+        url:`${baseUrl}`,
+        method:'put',
+        data
+    })
+}
